@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b52193b255.js" crossorigin="anonymous"></script>
+
+    <title>Coffee House | </title>
+</head>
+
+<body>
+    <nav class="navigation">
+
+        <h3 class="navigation__heading">Coffee House <img src="img/coffee-mug.svg" alt="" class="navigation__icon"></h3>
+
+        <button class="navigation__button">Make a reservation</button>
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#index.html" class="navigation__link">Home</a></li>
+            <li class="navigation__item"><a href="#index.html" class="navigation__link">About</a></li>
+            <li class="navigation__item"><a href="#index.html" class="navigation__link">Menu</a></li>
+            <li class="navigation__item"><a href="#index.html" class="navigation__link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h2 class="heading-secondary" data-heading="Make a reservation">Make a reservation</h2>
+
+
+    <form action="#" class="form">
+        <div class="form__group">
+            <label for="name" class="form__label">Name:</label>
+            <input type="text" class="form__input" id="name" required>
+        </div>
+        <div class="form__group">
+            <label for="phone" class="form__label">Phone number:</label>
+            <input type="text" class="form__input" id="phone" required>
+        </div>
+        <label for="date" class="form__label">Pick a date:</label>
+        <input type="date" class="form__input" id="date">
+        <div class="form__group">
+            <label for="message" class="form__label">Enter your message:</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Please enter your message"
+                class="form__input"></textarea>
+        </div>
+        <button class="navigation__button" type="submit">Make a reservation</button>
+    </form>
+</body>
+
+</html>
